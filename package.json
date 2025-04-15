@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type": ,
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/felipechaves10/introducao-api-rest/issues"
   },
-  "homepage": "https://github.com/felipechaves10/introducao-api-rest#readme"
+  "homepage": "https://github.com/felipechaves10/introducao-api-rest#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
